@@ -1,0 +1,26 @@
+.container-inputs{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    border-bottom: 1px solid;
+}
+
+.container-inputs div{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-inputs input{
+    text-align: center;
+    line-height: 2;
+    font-size: 20px;
+    width: 65px;
+    height: 45px;
+}
+
+.container-inputs label{
+    font-size: 16px;
+    font-weight: 400;
+    color: hsl(0, 1%, 44%);
+}

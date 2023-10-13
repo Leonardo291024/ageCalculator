@@ -1,0 +1,19 @@
+.container-arrow{
+    position: absolute;
+    top: 210px;
+    left: 130px;
+    background-color: hsl(259, 100%, 65%);
+    width: 50px;
+    border-radius: 50%;
+    border: none;
+    height: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.container-arrow:hover{
+    background-color: hsl(0, 0%, 8%);
+}

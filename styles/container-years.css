@@ -1,0 +1,13 @@
+.container-years{
+    margin-top: 30px;
+}
+
+.container-years h1, h2, h3, strong{
+    font-size: 40px;
+    font-weight: 700;
+    color: hsl(259, 100%, 65%);
+}
+
+.container-years strong{
+   color: hsl(0, 0%, 8%);
+}
