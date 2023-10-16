@@ -20,28 +20,38 @@
             <div class="container-inputs">
                 <div>
                     <label for="">Day</label>
-                    <input type="number">
+                    <input type="text" id="input1">
                 </div>
 
                 <div>
                     <label for="">Month</label>
-                    <input type="number">
+                    <input type="text" id="input2">
                 </div>
 
                 <div>
                     <label for="">Year</label>
-                    <input type="number">
+                    <input type="text" id="input3">
                 </div>
             </div>
-            <button class="container-arrow">
+            <button class="container-arrow" id="btnCalc">
                 <img src="./assets/images/icon-arrow.svg" alt="">
             </button>
             <div class="container-years">
-                <h3>_ _ <strong>years</strong></h3>
-                <h2>_ _ <strong>months</strong></h2>
-                <h1>_ _ <strong>days</strong></h1>
+                <div>
+                    <h3 id="years1"></h3>
+                    <p>years</p>
+                </div>
+                <div>
+                    <h3 id="meses1"></h3>
+                    <p>meses</p>
+                </div>
+                <div>
+                    <h3 id="dias1"></h3>
+                    <p>dias</p>
+                </div>
             </div>
         </section>
     </main>
+    <script src="./js/main.js"></script>
 </body>
 </html>
