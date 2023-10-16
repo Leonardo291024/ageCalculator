@@ -1,7 +1,10 @@
 .container-calculadora{
+    position: relative;
     background-color: hsl(0, 0%, 100%);
-    width: 80%;
-    padding: 65px 20px;
+    width: 85%;
+    max-width: 540px;
+    padding: 65px 10px;
     border-radius: 10px 10px 80px 10px;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
 }
+
